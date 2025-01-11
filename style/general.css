@@ -10,6 +10,7 @@
 }
 .btn {
   padding: 10px 20px;
+  transition: all 0.4s;
 }
 
 .navbar,
@@ -35,4 +36,25 @@
 }
 .bg-yellow {
   background: rgb(255, 194, 57);
+}
+
+/* Hover area */
+
+.taka-100:hover {
+  background: rgb(255, 194, 57);
+}
+.taka-200:hover {
+  background: rgb(9, 161, 92);
+}
+.taka-500:hover {
+  background: rgb(84, 144, 245);
+}
+.taka-1000:hover {
+  background: rgba(84, 144, 245, 0.2);
+}
+
+.btn:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgb(71, 66, 66);
+  transform: translateY(1px);
 }
