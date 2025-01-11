@@ -17,3 +17,22 @@
   max-width: 1600px;
   margin: 0 auto;
 }
+
+.bg-1 {
+  background: rgba(84, 144, 245, 0.2);
+}
+.bg-2 {
+  background: rgb(198, 228, 214);
+}
+.bg-3 {
+  background: rgb(247, 235, 207);
+}
+.bg-blue {
+  background: rgb(84, 144, 245);
+}
+.bg-green {
+  background: rgb(9, 161, 92);
+}
+.bg-yellow {
+  background: rgb(255, 194, 57);
+}

@@ -4,6 +4,9 @@
   box-sizing: border-boxs;
 }
 
+body {
+  background: rgb(245, 245, 245);
+}
 .fira-sans-regular {
   font-family: "Fira Sans", serif;
   font-weight: 400;
@@ -87,6 +90,199 @@
   color: rgb(255, 255, 255);
   font-size: 18px;
   font-weight: 600;
-  /* line-height: 22px; */
-  /* letter-spacing: 0%; */
+}
+
+/* Vision section */
+
+.vision {
+  /* background-color: red; */
+}
+.vision-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+/* .vision-head {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+} */
+
+.vision-head {
+  color: rgb(14, 14, 14);
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.description {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.vision-main {
+  display: flex;
+  gap: 24px;
+}
+
+.vision-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 32px;
+  border-radius: 16px;
+}
+
+.card-head {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.learn-btn {
+  border-radius: 8px;
+  border: none;
+
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* Quote section */
+
+.quote-section {
+  background-color: red;
+  background-image: url("../assets/quote-bg.png");
+  background-repeat: no-repeat;
+  background-position: left 3% top 20%;
+
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+}
+
+.quote-container {
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.chief-description {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+/* Recent section */
+
+.recent {
+  margin: 80px auto;
+}
+
+.recent-head {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.news-container {
+  border-radius: 24px;
+  background: rgb(255, 255, 255);
+
+  margin-top: 32px;
+}
+
+.news {
+  display: flex;
+  gap: 32px;
+  /* align-items: center; */
+  justify-content: space-between;
+
+  padding: 48px;
+}
+
+.news-img {
+  border-radius: 24px;
+}
+
+.news-content {
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.read {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+  padding: 13px 26px;
+  margin-top: 32px;
+
+  background: rgb(0, 106, 80);
+}
+
+/* Donate section */
+
+.donate-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+  margin: 80px 0;
+}
+
+.amount-box {
+  display: flex;
+  gap: 24px;
+}
+
+.taka-btn {
+  padding: 40px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+
+  background: rgb(255, 255, 255);
+
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.input {
+  padding: 20px 40px;
+  width: 1032px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+
+  background: rgb(255, 255, 255);
+}
+
+input::placeholder {
+  text-align: center;
+  color: rgba(14, 14, 14, 0.3);
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* height: 64px;
+} */
+.btn-done {
+  padding: 17px 34px;
+  border: 1px solid rgba(14, 14, 14, 0.1);
+  border-radius: 8px;
+
+  background: rgb(0, 106, 80);
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
 }
