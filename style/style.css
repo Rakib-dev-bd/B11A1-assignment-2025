@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-boxs;
+}
+
+.fira-sans-regular {
+  font-family: "Fira Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header {
+  margin-bottom: 80px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 160px;
+
+  /* background-color: red; */
+}
+
+.head-logo {
+  font-size: 32px;
+  color: rgb(14, 14, 14);
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0.5px;
+  text-align: left;
+}
+
+.nav-btn {
+  border: 1px solid rgb(0, 106, 80);
+  border-radius: 8px;
+  color: rgb(0, 106, 80);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  background-color: #fff;
+}
+
+/* Banner section */
+
+.banner {
+  background-color: rgb(206, 255, 239);
+}
+
+.banner-main-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 100px;
+}
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.bangladesh {
+  color: rgba(14, 14, 14, 0.5);
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.heading {
+  color: rgb(14, 14, 14);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 67px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.explore-btn {
+  border-radius: 8px;
+  background: rgb(0, 106, 80);
+  border: none;
+
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  /* line-height: 22px; */
+  /* letter-spacing: 0%; */
+}
